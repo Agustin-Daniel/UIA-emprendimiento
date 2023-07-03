@@ -1,0 +1,72 @@
+.container {
+    max-width: 1400px !important;
+    width: 100% !important;
+    /* height: 1600px; */
+    background-color: #ffff;
+}
+
+body {
+    scroll-behavior: smooth !important;
+}
+
+/* .card-img {
+    height: 200px;
+} */
+.img-tools{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 0;
+    margin-right: 15px;
+}
+
+.nextui-c-iVzbCs {
+    margin: 0px !important;
+    margin-right: 15px !important;
+}
+
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #FDD8E5;
+}
+
+.img-uai{
+    margin-top: 4em !important;
+    margin-bottom: 4em !important;
+}
+
+@media screen and (max-width: 600px) {
+    .text-p-pop{
+        font-size: 18px !important;
+    }
+
+    h2 {
+        font-size: 24px !important;
+    }
+
+    h1 {
+        font-size: 28px !important;
+    }
+
+    .img-uai{
+        margin-top: 1em !important;
+        margin-bottom: 1em !important;
+    }
+}
+@media screen and (max-width: 960px) {
+    .tolls-cards{
+        display: none !important;
+    }
+
+    .imagen-cont {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+}
